@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven {
+        name = 'destroystokyo-repo'
+        url = 'https://repo.destroystokyo.com/repository/maven-public/'
+    }
+    maven {
+        url = "https://oss.sonatype.org/content/repositories/snapshots/"
+    }
+}
+
+dependencies {
+    compile 'com.destroystokyo.paper:paper-api:1.15.2-R0.1-SNAPSHOT'
+}

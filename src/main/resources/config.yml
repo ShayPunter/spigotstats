@@ -1,0 +1,21 @@
+#
+# Configuration for SpigotStats
+# Version @version@
+#
+
+# Enable sharing of your stats to our global database?
+shareStats: true
+
+# If you have enabled sharing of your stats to our global database we will want to know your server name!
+servername: "myserver"
+
+# We support two storage systems, SQLite and MySQL.
+storage: "sqlite"
+mysql:
+  host: "0.0.0.0"
+  username: "username"
+  password: "password"
+  port: 3306
+  dbname: "spigotstats"
+
+# ANYTHING BELOW THIS LINE DO NOT EDIT
